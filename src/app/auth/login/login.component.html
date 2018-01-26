@@ -1,0 +1,30 @@
+<app-auth-header></app-auth-header>
+<section class="row">
+  <div class="col-md-12">
+    <h3 class="col-xs-12 text-center">Or with your account</h3>
+    <div class="col-xs-offset-2 col-xs-8 col-md-offset-4 col-md-4">
+      <form class="signin">
+        <fieldset>
+          <div class="form-group">
+            <label for="usernameOrEmail">Username or Email</label>
+            <input type="text" id="usernameOrEmail" name="usernameOrEmail" class="form-control" placeholder="Username or Email" required
+              autofocus>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+          </div>
+          <div class="text-center form-group">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+            &nbsp; or&nbsp;
+            <a routerLink='/register'>Sign up</a>
+          </div>
+          <div class="text-center forgot-password">
+            <a>Forgot your password?</a>
+          </div>
+          <br />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </section>
